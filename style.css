@@ -1,5 +1,5 @@
 body {
-    background-image: url(asset/wallpaperbetter\ \(3\).jpg);
+    background-image: url(asset/bg1.jpg);
 }
 
 header .images img {
@@ -52,19 +52,11 @@ main .container .card {
     background-color: #ffffffea;
     border: 2px solid #b40202;
     position: relative;
-    transition: .5s;
-    -webkit-transition: .5s;
-    -moz-transition: .5s;
-    -ms-transition: .5s;
-    -o-transition: .5s;
+    transition: .6s;
 }
 
 main .container .card:hover {
-    transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    -o-transform: scale(1.2);
+    transform: scale(1.15);
 }
 
 
