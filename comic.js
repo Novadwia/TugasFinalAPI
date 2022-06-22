@@ -1,5 +1,5 @@
 const urlAPI = 'http://gateway.marvel.com/v1/public/';
-urlAPI.detail.replace(/^http:\/\//i, 'https://');
+const newUrlAPI = urlAPI.detail.replace(/^http:\/\//i, 'https://');
 
 const fetchAPI2 = async () => {
     try {
