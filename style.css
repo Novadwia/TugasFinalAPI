@@ -1,0 +1,83 @@
+body {
+    background-image: url(asset/wallpaperbetter\ \(3\).jpg);
+}
+
+header .images img {
+    margin-right: 10px;
+    height: 60px;
+}
+
+header .nav-link {
+    font-size: 20px;
+}
+
+.carousel-inner img {
+    height: 96vh;
+}
+
+#form-input {
+    width: 20rem;
+    background-color:#f1f1f1 ;
+}
+
+footer .footer {
+    color: black;
+    text-align: center;
+    background-color:#b8b8b8;
+    padding-bottom: 7px;
+    padding-top: 7px;
+}
+
+main {
+    margin: 100px 0 50px 0;
+    
+}
+
+main h1 {
+    color: #d40000f6;
+    margin-bottom: 10px;
+    font-size: 50px;
+    font-weight: bold;
+    background-color: #00000054;
+    letter-spacing: 3px;
+}
+
+main .container {
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main .container .card {
+    width: 15rem;
+    background-color: #ffffffea;
+    border: 2px solid #b40202;
+    position: relative;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+main .container .card:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+main .container .card .btn {
+    background-color: #cf0000d5;
+    color: white;
+}
+
+main .container .card h5 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+main .container .card p {
+    font-size: 13px;
+}
