@@ -16,7 +16,7 @@ console.log(newUrlAPI);
 
 const fetchAPI = async () => {
     try {
-        let api = await fetch(`${urlAPI}/characters?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888`);
+        let api = await fetch(`${newUrlAPI}/characters?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888`);
         api = await api.json();
         return api;
     } catch (error) {
@@ -26,7 +26,7 @@ const fetchAPI = async () => {
 
 const searchCharacters = async (query) => {
     try {
-        let api = await fetch(`${urlAPI}/characters?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888&nameStartsWith=${query}`);
+        let api = await fetch(`${newUrlAPI}/characters?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888&nameStartsWith=${query}`);
         api = await api.json();
         return api;
     } catch (error) {
