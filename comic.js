@@ -4,7 +4,7 @@ console.log(newUrlAPI);
 
 const fetchAPI2 = async () => {
     try {
-        let api = await fetch(newUrlAPI + 'comics?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888');
+        let api = await fetch(`${newUrlAPI}comics?ts=1&apikey=06c11cdc9a858b6dd80c45637cd18c02&hash=fa041e84b43ab00b39324f121ec9e888`);
         api = await api.json();
         return api;
     } catch (error) {
